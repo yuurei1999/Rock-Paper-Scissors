@@ -24,4 +24,7 @@ function getHumanChoice(){
     return humanChoice
 }
 
-alert(getHumanChoice())
+let computerScore = 0
+let humanScore = 0
+
+alert(computerScore)
