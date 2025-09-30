@@ -17,7 +17,11 @@ function getComputerChoice(){
     else{
         return "scissors";
     }
-    
 }   
 
-console.log(getComputerChoice())
+function getHumanChoice(){
+    let humanChoice = prompt("What's your choice? ")
+    return humanChoice
+}
+
+alert(getHumanChoice())
